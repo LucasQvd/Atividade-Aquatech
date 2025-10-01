@@ -1,0 +1,265 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3b062;
+    width: 400px;
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* top/right bottom/left */
+    padding: 0px 15px;
+}
+
+.agora a {
+    color: white;
+    font-weight: bold;
+}
+
+.titulo {
+    color: #32b9cd;
+}   
+
+/* HEADER FIM */
+
+/* BANNER INICIO */
+
+.banner {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.banner .container {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container span {
+    font-weight: bold;
+}
+
+.banner .container p {
+    color: white;
+    width: 150px;
+    font-size: 25px;
+}
+
+/* BANNER FIM */
+
+/* SOCIAL INICIO */
+
+.social {
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+}
+
+.social .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.boxes {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box img {
+    width: 40%;
+    height: 40%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    flex-direction: column;
+}
+
+.box h4 {
+    color: blueviolet;
+}
+
+/* SOCIAL FIM */
+
+/* FOOTER INICIO */
+
+.footer {
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* FOOTER FIM */
+
+/* CADASTRO INICIO */
+
+.login .container {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+}
+
+.card-cadastro {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2% .5%;
+    padding-top: 1%;
+    padding-right: 2%;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    border-radius: 2%;
+    color: palevioletred;
+}
+
+.card-cadastro input {
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: #32b9cd;
+}
+
+.campo {
+    margin: 2%;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-cadastro button {
+    display: flex;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f0145c;
+    color: white;
+    font-weight: bold;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+/* CADASTRO FIM */
+
+/* LOGIN INICIO */
+
+.login .container {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+}
+
+.card-login {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2% .5%;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 45%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    border-radius: 2%;
+    color: palevioletred;
+}
+
+.card-login input {
+    width: 500px;
+    height: 30px;
+    padding-top: 0%;
+    padding-left: 2%;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: #32b9cd;
+}
+
+.campo {
+    margin: 2%;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login button {
+    display: flex;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f0145c;
+    color: white;
+    font-weight: bold;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+/* LOGIN FIM */
